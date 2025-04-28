@@ -1,0 +1,7 @@
+{
+    "top": ["Garen", "Darius", "Camille", "Shen"],
+    "jungle": ["Lee Sin", "Elise", "Sejuani", "Nidalee"],
+    "mid": ["Ahri", "Zed", "Syndra", "Yasuo"],
+    "adc": ["Jinx", "Ezreal", "Kai'Sa", "Ashe"],
+    "support": ["Leona", "Thresh", "Lulu", "Nami"]
+}

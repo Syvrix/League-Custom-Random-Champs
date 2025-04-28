@@ -1,0 +1,14 @@
+TODO
+Lists should be in Json format.
+- List of all champions in game
+- List of all roles(top, jungle, mid, adc, supp) with champions assigned to them.
+- Champion pool size (amount of champions that should be randomly generated for each team)
+- role dependent (Where atleast 1 of each role should exist in the pool.) 
+
+
+Modifiers accepted are
+ x, role_dependent, role_amount
+
+ x =                = The pool size that should be generated for each team
+ role_dependent     = is a 'yes' or 'no' modifier so there is atleast 1 champion of atleast 1 of the roles.
+ role_amount        = How many champions that should be generated of the existing roles, if 2 is input, there will be atleast 2 champions with the role ADC, or support...
