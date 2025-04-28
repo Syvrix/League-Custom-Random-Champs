@@ -1,7 +1,35 @@
 {
-    "top": ["Garen", "Darius", "Camille", "Shen"],
-    "jungle": ["Lee Sin", "Elise", "Sejuani", "Nidalee"],
-    "mid": ["Ahri", "Zed", "Syndra", "Yasuo"],
-    "adc": ["Jinx", "Ezreal", "Kai'Sa", "Ashe"],
-    "support": ["Leona", "Thresh", "Lulu", "Nami"]
+    "top": [
+        "Aatrox", "Akali", "Camille", "Cho'Gath", "Darius", "Dr. Mundo", "Fiora", "Garen",
+        "Gnar", "Gragas", "Gwen", "Illaoi", "Irelia", "Jax", "Jayce", "Kayle", "Kennen",
+        "Kled", "Malphite", "Mordekaiser", "Nasus", "Ornn", "Pantheon", "Poppy", "Quinn",
+        "Renekton", "Riven", "Sett", "Shen", "Singed", "Sion", "Teemo", "Tryndamere",
+        "Urgot", "Volibear", "Wukong", "Yorick"
+    ],
+    "jungle": [
+        "Amumu", "Bel'Veth", "Diana", "Ekko", "Elise", "Evelynn", "Fiddlesticks", "Gragas",
+        "Graves", "Hecarim", "Ivern", "Jarvan IV", "Karthus", "Kayn", "Kha'Zix", "Kindred",
+        "Lee Sin", "Lillia", "Master Yi", "Nidalee", "Nocturne", "Nunu & Willump", "Olaf",
+        "Poppy", "Rammus", "Rek'Sai", "Rengar", "Sejuani", "Shaco", "Shyvana", "Skarner",
+        "Trundle", "Udyr", "Vi", "Viego", "Volibear", "Warwick", "Wukong", "Xin Zhao", "Zac"
+    ],
+    "mid": [
+        "Ahri", "Akali", "Anivia", "Annie", "Aurelion Sol", "Azir", "Brand", "Cassiopeia",
+        "Corki", "Diana", "Ekko", "Fizz", "Galio", "Gragas", "Heimerdinger", "Irelia",
+        "Karma", "Karthus", "Kassadin", "Katarina", "Kayle", "Kennen", "LeBlanc", "Lissandra",
+        "Lux", "Malzahar", "Neeko", "Orianna", "Pantheon", "Qiyana", "Ryze", "Seraphine",
+        "Swain", "Sylas", "Syndra", "Taliyah", "Talon", "Twisted Fate", "Veigar", "Vel'Koz",
+        "Vex", "Viktor", "Vladimir", "Xerath", "Yasuo", "Yone", "Zed", "Ziggs", "Zoe"
+    ],
+    "adc": [
+        "Aphelios", "Ashe", "Caitlyn", "Corki", "Draven", "Ezreal", "Jhin", "Jinx", "Kai'Sa",
+        "Kalista", "Kog'Maw", "Lucian", "Miss Fortune", "Nilah", "Quinn", "Samira", "Senna",
+        "Sivir", "Tristana", "Twitch", "Varus", "Vayne", "Xayah", "Zeri"
+    ],
+    "support": [
+        "Alistar", "Amumu", "Bard", "Blitzcrank", "Brand", "Braum", "Janna", "Karma", "Leona",
+        "Lulu", "Lux", "Maokai", "Milio", "Morgana", "Nami", "Nautilus", "Neeko", "Pyke",
+        "Rakan", "Renata Glasc", "Rell", "Senna", "Seraphine", "Sona", "Soraka", "Swain",
+        "Tahm Kench", "Taric", "Thresh", "Vel'Koz", "Xerath", "Yuumi", "Zilean", "Zyra"
+    ]
 }

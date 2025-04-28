@@ -11,14 +11,17 @@ all_champions = []
 for champs in role_champions.values():
     all_champions.extend(champs)
 
-def generate_random_champions():        
+def gen_random_champs(x):        
     # Load all champions
     with open('champions.json', 'r') as file:
         all_champions = json.load(file)
     
-    # Randomly select 15 champions
-    selected_champions = random.sample(all_champions, 15)
+    # Randomly select x champions
+    selected_champions = random.sample(all_champions, x)
     print_champions(selected_champions)
+    
+def gen_random_role_champs(x):
+    
         
 def random_jungler():
     random_junglers = random.sample(role_champions["jungle"])
