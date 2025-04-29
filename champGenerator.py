@@ -1,7 +1,7 @@
 import random, json
 
 # Load role-based champions from file
-with open('roles.json', 'r') as file:
+with open('champions_w_roles.json', 'r') as file:
     role_champions = json.load(file)
 
 
