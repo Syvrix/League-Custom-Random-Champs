@@ -4,18 +4,12 @@ import random, json
 with open('champions_w_roles.json', 'r') as file:
     role_champions = json.load(file)
 
-
 # Flatten all champions into one big list
-# CHANGE THIS, IT ADDS DUPLICATED CHAMPIONS TO ATM.
 all_champions = []
 for champs in role_champions.values():
     all_champions.extend(champs)
 
 def gen_random_champs(x):        
-    # Load all champions
-    with open('champions.json', 'r') as file:
-        all_champions = json.load(file)
-    
     # Randomly select x champions
     selected_champions = random.sample(all_champions, x)
     print_champions(selected_champions)
