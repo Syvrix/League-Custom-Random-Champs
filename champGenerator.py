@@ -15,25 +15,41 @@ def gen_random_champs(x):
     print_champions(selected_champions)
     
 def gen_random_role_champs(x):
-    # Code here
-    print("hello")
+    # zipslide: gen_random_role_champs changes
+    # modified to store both champion name and role as tuples
+    # this allows us to track which role each champion belongs to
+    selected_champions = []
+    for role in role_champions:
+        if len(role_champions[role]) >= x:
+            # Create tuples of (champion_name, role) for each selected champion
+            selected_champions.extend([(champ, role) for champ in random.sample(role_champions[role], x)])
+    print_champions(selected_champions)
     
+# zipslide: role function improvements
 def random_jungler():
-    random_junglers = random.sample(role_champions["jungle"])
+    return random.sample(role_champions["jungle"], 1)[0]
 
 def random_top():
-    random_top = random.sample(role_champions["top"])
+    return random.sample(role_champions["top"], 1)[0]
 
 def random_mid():
-    random_mid = random.sample(role_champions["mid"])
+    return random.sample(role_champions["mid"], 1)[0]
 
 def random_adc():
-    random_adc = random.sample(role_champions["adc"])
+    return random.sample(role_champions["adc"], 1)[0]
 
 def random_support():
-    random_support = random.sample(role_champions["support"])
-    
+    return random.sample(role_champions["support"], 1)[0]
+
 def print_champions(champions):
-    # Print selected champions
+    # zipslide: print_champions
+    # updated to handle two different types of input:
+    # 1. simple champion names (from gen_random_champs)
+    # 2. champion-role tuples (from gen_random_role_champs)
     for champ in champions:
-        print(f"{champ['name']} - {champ['role']}")
+        if isinstance(champ, tuple):
+            # forr role-specific champions (champ, role)
+            print(f"{champ[0]} - {champ[1]}")
+        else:
+            # for general champions (just name)
+            print(champ)
