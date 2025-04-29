@@ -88,7 +88,7 @@
     {"name": "Naafiri", "roles": ["mid"]},
     {"name": "Nami", "roles": ["support"]},
     {"name": "Nasus", "roles": ["top"]},
-    {"name": "Nautilus", "roles": ["support", "jungle"]},
+    {"name": "Nautilus", "roles": ["support"]},
     {"name": "Neeko", "roles": ["mid", "support"]},
     {"name": "Nidalee", "roles": ["jungle"]},
     {"name": "Nilah", "roles": ["adc"]},
