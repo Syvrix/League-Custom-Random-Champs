@@ -1,14 +1,17 @@
 [
     {"name": "Aatrox", "roles": ["top"]},
+    {"name": "Akshan", "roles": ["top", "mid"]},
     {"name": "Ahri", "roles": ["mid"]},
     {"name": "Akali", "roles": ["top", "mid"]},
     {"name": "Alistar", "roles": ["support"]},
+    {"name": "Ambessa", "roles": ["top"]},
     {"name": "Amumu", "roles": ["jungle", "support"]},
     {"name": "Anivia", "roles": ["mid"]},
     {"name": "Annie", "roles": ["mid", "support"]},
     {"name": "Aphelios", "roles": ["adc"]},
     {"name": "Ashe", "roles": ["adc", "support"]},
     {"name": "Aurelion Sol", "roles": ["mid"]},
+    {"name": "Aurora", "roles": ["support", "mid"]},
     {"name": "Azir", "roles": ["mid"]},
     {"name": "Bard", "roles": ["support"]},
     {"name": "Bel'Veth", "roles": ["jungle"]},
@@ -51,6 +54,7 @@
     {"name": "Jayce", "roles": ["top", "mid"]},
     {"name": "Jhin", "roles": ["adc"]},
     {"name": "Jinx", "roles": ["adc"]},
+    {"name": "K'Sante", "roles": ["Top"]},
     {"name": "Kai'Sa", "roles": ["adc"]},
     {"name": "Kalista", "roles": ["adc"]},
     {"name": "Karma", "roles": ["mid", "support"]},
@@ -76,6 +80,7 @@
     {"name": "Malzahar", "roles": ["mid"]},
     {"name": "Maokai", "roles": ["top", "jungle", "support"]},
     {"name": "Master Yi", "roles": ["jungle"]},
+    {"name": "Mel", "roles": ["mid", "support"]},
     {"name": "Milio", "roles": ["support"]},
     {"name": "Miss Fortune", "roles": ["adc", "support"]},
     {"name": "Mordekaiser", "roles": ["top"]},
@@ -119,6 +124,7 @@
     {"name": "Sion", "roles": ["top"]},
     {"name": "Sivir", "roles": ["adc"]},
     {"name": "Skarner", "roles": ["jungle", "top"]},
+    {"name": "Smolder", "roles": ["adc"]},
     {"name": "Sona", "roles": ["support"]},
     {"name": "Soraka", "roles": ["support"]},
     {"name": "Swain", "roles": ["mid", "support"]},
@@ -162,8 +168,6 @@
     {"name": "Ziggs", "roles": ["mid", "adc"]},
     {"name": "Zilean", "roles": ["support", "mid"]},
     {"name": "Zoe", "roles": ["mid"]},
-    {"name": "Aurora", "roles": ["support", "mid"]}
-    {"name": "Smolder", "roles": ["adc"]}
-    {"name": "K'Sante", "roles": ["Top"]}
+    {"name": "Zyra", "roles": ["mid"]}
   ]
   

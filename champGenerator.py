@@ -21,8 +21,8 @@ def gen_random_champs(x):
     print_champions(selected_champions)
     
 def gen_random_role_champs(x):
+    # Code here
     
-        
 def random_jungler():
     random_junglers = random.sample(role_champions["jungle"])
 
