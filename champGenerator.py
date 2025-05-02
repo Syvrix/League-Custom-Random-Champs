@@ -10,6 +10,12 @@ with open('lists/roles.json', 'r') as file:
 with open('lists/champions.json', 'r') as file:
     all_champions = json.load(file)
 
+
+#!Syphex -> gets the champion icon from Riots CDN for league assets.
+def get_champ_icon_url(champ_name, patch="14.8.1"):
+    normalized = champ_name.replace("'", "").replace(" ", "")
+    return f"https://ddragon.leagueoflegends.com/cdn/{patch}/img/champion/{normalized}.png"
+    
 def gen_random_champs(x):        
     # randomly select x champions from all champions
     selected_champions = random.sample(all_champions, x)
@@ -20,10 +26,17 @@ def gen_random_role_champs(x):
     #!zipslide -> modified to store both champion name and role as tuples
     #!zipslide -> this allows us to track which role each champion belongs to
     selected_champions = []
+    
     for role in role_champions:
         if len(role_champions[role]) >= x:
-            # Create tuples of (champion_name, role) for each selected champion
-            selected_champions.extend([(champ, role) for champ in random.sample(role_champions[role], x)])
+            pool = []
+            while len(pool) < x:
+                # Create tuples of (champion_name, role) for each selected champion
+                champ = [(champ, role) for champ in random.sample(role_champions[role], 1)]
+                if champ not in pool:
+                    pool.append(champ)                
+            selected_champions.extend([(champ, role) for champ in pool])
+            
     print_champions(selected_champions)
 
 # zipslide: role function improvements

@@ -5,7 +5,8 @@ from champGenerator import (
     random_top,
     random_mid,
     random_adc,
-    random_support
+    random_support,
+    get_champ_icon_url
 )
 
 def main():
@@ -25,6 +26,9 @@ def main():
     print("\n4. Generate a random duo lane (ADC + Support):")
     print("ADC:", random_adc())
     print("Support:", random_support())
-
+    
+    #print("\n5. Generate a URL icon for selected champion:")
+    #print (get_champ_icon_url(random_support()))
+    
 if __name__ == "__main__":
     main() 
