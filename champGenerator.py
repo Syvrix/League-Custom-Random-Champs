@@ -33,6 +33,7 @@ def gen_random_role_champs(x):
                 # Create tuples of (champion_name, role) for each selected champion
                 champ = [(champ, role) for champ in random.sample(role_champions[role], 1)]
                 if champ not in pool:
+                    #!Syphex -> Ensures no duplicates are generated.
                     pool.append(champ)                
                     selected_champions.extend(champ)
     print_champions(selected_champions)
