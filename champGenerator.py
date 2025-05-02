@@ -26,7 +26,6 @@ def gen_random_role_champs(x):
     #!zipslide -> modified to store both champion name and role as tuples
     #!zipslide -> this allows us to track which role each champion belongs to
     selected_champions = []
-    
     for role in role_champions:
         if len(role_champions[role]) >= x:
             pool = []
