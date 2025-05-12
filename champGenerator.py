@@ -67,3 +67,7 @@ def print_champions(champions):
         else:
             #!zipslide -> for general champions (just name)
             print(champ)
+            
+def print_champions_plain(champions):
+    for champ in champions:
+        print(champ[0])
