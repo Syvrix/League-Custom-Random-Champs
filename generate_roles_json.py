@@ -8,6 +8,10 @@ this is easier when chosing a random selection.
 '''
 
 import json
+#!Syvrix -> Needs to be finished, saving here so i can close project.
+#def generate_champions():
+#    with open('lists/champions_w_roles.json', 'r') as file:
+#        champions_data = json.load(file)
 
 def generate_roles_json():
     with open('lists/champions_w_roles.json', 'r') as file:
@@ -32,4 +36,4 @@ def generate_roles_json():
     print('created roles.json~~')
 
 if __name__ == "__main__":
-    generate_roles_json() 
+    generate_roles_json()
